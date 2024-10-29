@@ -13,3 +13,4 @@ o.softtabstop = 4
 o.shiftwidth = 4
 o.smartindent = true
 o.smarttab = true
+o.hlsearch = false
