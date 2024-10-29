@@ -5,6 +5,7 @@ local options = {
         html = { "prettierd" },
         javascript = { "prettierd" },
         go = { "gofumpt", "goimports", "goimports-reviser" },
+        c = { "clang-format" },
     },
 
     format_on_save = {
