@@ -1,7 +1,7 @@
 return {
   {
     "stevearc/conform.nvim",
-    event = 'BufWritePre',
+    event = "BufWritePre",
     opts = require "configs.conform",
   },
   {
@@ -42,5 +42,12 @@ return {
       },
     },
   },
-
+  {
+    "windwp/nvim-ts-autotag",
+    ft = {
+      "javascript",
+      "html",
+    },
+    opts = {},
+  },
 }
