@@ -18,6 +18,7 @@ return {
         "bash",
         "c",
         "diff",
+        "go",
         "html",
         "javascript",
         "jsdoc",
@@ -49,5 +50,16 @@ return {
       "html",
     },
     opts = {},
+  },
+  {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+    cmd = {
+      "TmuxNavigateLeft",
+      "TmuxNavigateDown",
+      "TmuxNavigateUp",
+      "TmuxNavigateRight",
+      "TmuxNavigatePrevious",
+    },
   },
 }
