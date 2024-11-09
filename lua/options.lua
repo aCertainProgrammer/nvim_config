@@ -15,3 +15,4 @@ o.smartindent = true
 o.smarttab = true
 o.hlsearch = false
 o.expandtab = true
+o.mouse = ""
