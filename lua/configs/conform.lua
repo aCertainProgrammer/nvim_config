@@ -7,7 +7,6 @@ local options = {
     json = { "prettierd" },
     go = { "gofumpt", "goimports", "goimports-reviser" },
     c = { "clang-format" },
-    php = { "prettierd" },
   },
 
   format_on_save = {
