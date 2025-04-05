@@ -20,22 +20,6 @@ lspconfig.ts_ls.setup {
   on_attach = nvlsp.on_attach,
   on_init = nvlsp.on_init,
   capabilities = nvlsp.capabilities,
-  filetypes = {
-    "javascript",
-    "javascriptreact",
-    "javascript.jsx",
-    "typescript",
-    "typescriptreact",
-    "typescript.tsx",
-    "vue",
-  },
-  plugins = {
-    {
-      name = "@vue/typescript-plugin",
-      location = "/usr/local/lib/node_modules/@vue/typescript-plugin",
-      languages = { "vue" },
-    },
-  },
   init_options = {
     preferences = {
       disableSuggestions = true,
