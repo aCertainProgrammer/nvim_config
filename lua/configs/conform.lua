@@ -4,6 +4,7 @@ local options = {
     css = { "prettierd" },
     html = { "prettierd" },
     javascript = { "prettierd" },
+    vue = { "prettierd" },
     json = { "prettierd" },
     go = { "gofumpt", "goimports", "goimports-reviser" },
     c = { "clang-format" },
