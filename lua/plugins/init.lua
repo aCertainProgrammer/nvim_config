@@ -37,6 +37,7 @@ return {
         "tsx",
         "typescript",
         "vim",
+        "vue",
         "vimdoc",
         "xml",
         "yaml",
@@ -48,6 +49,7 @@ return {
     ft = {
       "javascript",
       "html",
+      "vue",
     },
     opts = {},
   },
