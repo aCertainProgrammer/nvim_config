@@ -5,6 +5,7 @@ local options = {
     html = { "prettierd" },
     javascript = { "prettierd" },
     vue = { "prettierd" },
+    svelte = { "prettierd" },
     json = { "prettierd" },
     go = { "gofumpt", "goimports", "goimports-reviser" },
     c = { "clang-format" },

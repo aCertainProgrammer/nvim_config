@@ -4,7 +4,7 @@ require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
 
 -- EXAMPLE
-local servers = { "html", "cssls", "gopls", "clangd" }
+local servers = { "html", "cssls", "gopls", "clangd", "svelte" }
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
@@ -20,6 +20,10 @@ lspconfig.ts_ls.setup {
   on_attach = nvlsp.on_attach,
   on_init = nvlsp.on_init,
   capabilities = nvlsp.capabilities,
+  filetypes = {
+    "javascript",
+    "typescript",
+  },
   init_options = {
     preferences = {
       disableSuggestions = true,

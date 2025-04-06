@@ -33,6 +33,7 @@ return {
         "python",
         "query",
         "regex",
+        "svelte",
         "toml",
         "tsx",
         "typescript",
