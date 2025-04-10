@@ -4,6 +4,7 @@ local options = {
     css = { "prettierd" },
     html = { "prettierd" },
     javascript = { "prettierd" },
+    typescript = { "prettierd" },
     vue = { "prettierd" },
     svelte = { "prettierd" },
     json = { "prettierd" },
