@@ -50,6 +50,7 @@ return {
     ft = {
       "javascript",
       "html",
+      "ejs",
       "vue",
     },
     opts = {},

@@ -10,6 +10,7 @@ local options = {
     json = { "prettierd" },
     go = { "gofumpt", "goimports", "goimports-reviser" },
     c = { "clang-format" },
+    python = { "pyright" },
   },
 
   format_on_save = {
