@@ -4,7 +4,7 @@ require("nvchad.configs.lspconfig").defaults()
 local lspconfig = require "lspconfig"
 
 -- EXAMPLE
-local servers = { "cssls", "gopls", "clangd", "svelte", "bashls", "pyright" }
+local servers = { "cssls", "gopls", "clangd", "svelte", "bashls" }
 local nvlsp = require "nvchad.configs.lspconfig"
 
 -- lsps with default config
@@ -39,4 +39,10 @@ lspconfig.ts_ls.setup {
       disableSuggestions = true,
     },
   },
+}
+
+lspconfig.gdscript.setup {
+  on_attach = nvlsp.on_attach,
+  on_init = nvlsp.on_init,
+  capabilities = nvlsp.capabilities,
 }
