@@ -33,6 +33,8 @@ lspconfig.ts_ls.setup {
   filetypes = {
     "javascript",
     "typescript",
+    "javascriptreact",
+    "typescriptreact",
   },
   init_options = {
     preferences = {
